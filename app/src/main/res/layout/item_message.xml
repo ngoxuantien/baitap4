@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content">
+    <androidx.cardview.widget.CardView
+        app:cardCornerRadius="1000dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/imageitem"
+            android:layout_width="100dp"
+            android:layout_height="100dp"/>
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_marginLeft="20dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="@color/black"
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Ngô Tiến"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:text="lạlfjasljfflajflkjaslfjlajfljfljalfjlajflj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/title123"/>
+    </LinearLayout>
+    <TextView
+        android:textSize="15dp"
+        android:layout_marginLeft="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gio"
+        android:text="12:34"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

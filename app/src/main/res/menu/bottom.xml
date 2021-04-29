@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/tinnhan"
+        android:icon="@drawable/ic_baseline_message_24"
+        android:title="Tin Nhắn"/>
+    <item
+        android:id="@+id/danhba"
+        android:icon="@drawable/ic_danhba1"
+        android:title="Danh bạ"/>
+    <item
+        android:id="@+id/nhom"
+        android:icon="@drawable/ic_nhom"
+        android:title="Nhóm"/>
+    <item
+        android:id="@+id/nhatky"
+        android:icon="@drawable/ic_nhatky"
+        android:title="Nhật ký"/>
+    <item
+        android:id="@+id/them"
+        android:icon="@drawable/ic_them"
+        android:title="Thêm"/>
+</menu>
